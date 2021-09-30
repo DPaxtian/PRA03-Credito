@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.scene.text.*?>
 <?import javafx.scene.shape.*?>
 <?import java.lang.*?>
@@ -8,19 +9,212 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="965.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="pra03.credito.CreditoViewController">
+<AnchorPane id="AnchorPane" prefHeight="552.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pra03.credito.CreditoViewController">
    <children>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" height="90.0" layoutY="-4.0" stroke="BLACK" strokeType="OUTSIDE" width="967.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="92.0" layoutX="-1.0" layoutY="-5.0" stroke="BLACK" strokeType="OUTSIDE" width="1027.0" />
       <Label layoutX="30.0" layoutY="24.0" text="Credi-MUJER" textFill="WHITE">
          <font>
             <Font name="Bodoni MT" size="28.0" />
          </font>
       </Label>
-      <Label layoutX="705.0" layoutY="48.0" text="email: contacto@credimujer.com" textFill="#fff600">
+      <Label layoutX="739.0" layoutY="48.0" text="email: contacto@credimujer.com" textFill="#fff600">
          <font>
             <Font name="Bodoni MT" size="18.0" />
          </font>
       </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d09d9d" height="508.0" layoutX="-1.0" layoutY="87.0" stroke="BLACK" strokeType="INSIDE" width="1028.0" />
+      <ImageView fitHeight="176.0" fitWidth="152.0" layoutX="430.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/kisspng-thumb-signal-woman-daz-studio-thumbs-up-5ac55985c9e8c4.0847660715228829498271.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="582.0" layoutY="120.0" text="MUJERES EMPRENDEDORAS">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="668.0" layoutY="147.0" text="-- Financiamiento --">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="662.0" layoutY="170.0" text="CRÉDITO FÁCIL">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcff41" height="45.0" layoutX="646.0" layoutY="197.0" stroke="BLACK" strokeType="INSIDE" width="218.0" />
+      <Label layoutX="664.0" layoutY="208.0" text="Hasta 100 mil pesos">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="323.0" layoutX="21.0" layoutY="271.0" stroke="BLACK" strokeType="INSIDE" width="249.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="323.0" layoutX="282.0" layoutY="271.0" stroke="BLACK" strokeType="INSIDE" width="249.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="323.0" layoutX="540.0" layoutY="271.0" stroke="BLACK" strokeType="INSIDE" width="249.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="80.0" layoutX="809.0" layoutY="270.0" stroke="BLACK" strokeType="INSIDE" width="204.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#67ace1" height="231.0" layoutX="809.0" layoutY="362.0" stroke="BLACK" strokeType="INSIDE" width="204.0" />
+      <Label layoutX="835.0" layoutY="278.0" text="Podemos apoyarte">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCalcular" layoutX="820.0" layoutY="309.0" mnemonicParsing="false" onAction="#calcularCredito" prefHeight="27.0" prefWidth="182.0" text="Simula tu crédito" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="860.0" layoutY="378.0" text="Tu préstamo">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="817.0" layoutY="413.0" text="Importe">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="817.0" layoutY="451.0" text="Plazo">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="810.0" layoutY="482.0" prefHeight="45.0" prefWidth="64.0" text="Pago mensual" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <TextField layoutX="886.0" layoutY="411.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField layoutX="886.0" layoutY="449.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField layoutX="886.0" layoutY="492.0" prefHeight="25.0" prefWidth="102.0" />
+      <Label layoutX="860.0" layoutY="547.0" text="Contáctanos!">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="553.0" layoutY="287.0" text="¿Nivel de ventas mensual?">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="318.0" layoutY="287.0" text="¿Cuál es tu producto?">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="287.0" text="¿Cómo es tu negocio?">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbRango1" layoutX="566.0" layoutY="340.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="196.0" text="Menos de $10,000">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="tgIngresos" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbRango2" layoutX="564.0" layoutY="378.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="196.0" text="De $10,000 a menos de $20,000" toggleGroup="$tgIngresos" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbRango3" layoutX="564.0" layoutY="429.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="196.0" text="De $20,000 a $30,000" toggleGroup="$tgIngresos" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbRango4" layoutX="564.0" layoutY="482.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="196.0" text="Más de $30,000" toggleGroup="$tgIngresos" wrapText="true">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="149.0" layoutY="459.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/Captura%20de%20pantalla%202021-09-29%20223558.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="37.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/local.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="148.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/venta%20directa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="37.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/semifijo.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="rbFijo" layoutX="57.0" layoutY="426.0" mnemonicParsing="false" text="Fijo">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="tgNegocio" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbVtaDirecta" layoutX="144.0" layoutY="426.0" mnemonicParsing="false" text="Venta Directa" toggleGroup="$tgNegocio">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbSemifijo" layoutX="48.0" layoutY="558.0" mnemonicParsing="false" text="Semifijo" toggleGroup="$tgNegocio">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbMovil" layoutX="162.0" layoutY="558.0" mnemonicParsing="false" text="Móvil" toggleGroup="$tgNegocio">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </RadioButton>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="306.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/moda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="410.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/aba.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="107.0" layoutX="293.0" layoutY="458.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/alimentos.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="92.0" fitWidth="107.0" layoutX="405.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Imagenes/limpieza.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="rbModa" layoutX="285.0" layoutY="423.0" mnemonicParsing="false" text="Moda y belleza">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="tgProducto" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbAbarrotes" layoutX="416.0" layoutY="423.0" mnemonicParsing="false" text="Abarrotes" toggleGroup="$tgProducto">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbAlimentos" layoutX="289.0" layoutY="546.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="107.0" text="Alimentos preparados" textAlignment="CENTER" toggleGroup="$tgProducto" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbLimpieza" layoutX="406.0" layoutY="546.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="107.0" text="Productos de limpieza" textAlignment="CENTER" toggleGroup="$tgProducto" wrapText="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
    </children>
 </AnchorPane>
