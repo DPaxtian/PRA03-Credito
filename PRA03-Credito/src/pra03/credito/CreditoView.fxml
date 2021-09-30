@@ -84,9 +84,9 @@
             <Font name="Arial" size="16.0" />
          </font>
       </Label>
-      <TextField layoutX="886.0" layoutY="411.0" prefHeight="25.0" prefWidth="102.0" />
-      <TextField layoutX="886.0" layoutY="449.0" prefHeight="25.0" prefWidth="102.0" />
-      <TextField layoutX="886.0" layoutY="492.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField fx:id="tfImporte" editable="false" layoutX="886.0" layoutY="411.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField fx:id="tfPlazo" editable="false" layoutX="886.0" layoutY="449.0" prefHeight="25.0" prefWidth="102.0" />
+      <TextField fx:id="tfPago" editable="false" layoutX="886.0" layoutY="492.0" prefHeight="25.0" prefWidth="102.0" />
       <Label layoutX="860.0" layoutY="547.0" text="Contáctanos!">
          <font>
             <Font name="Arial" size="18.0" />
